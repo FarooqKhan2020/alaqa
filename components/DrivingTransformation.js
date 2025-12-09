@@ -31,7 +31,7 @@ export default function DrivingTransformation() {
           {/* Right Visual */}
           <div className="relative order-1 md:order-2 mb-8 md:mb-0 hidden md:block">
             <div
-              className="w-full h-64 sm:h-80 md:h-96 rounded-lg flex items-center justify-center transform rotate-12 opacity-20 overflow-hidden"
+              className="w-90 h-64 sm:h-80 md:h-96 rounded-lg flex items-center justify-center transform rotate-12 opacity-20 overflow-hidden"
               style={{
                 background:
                   "linear-gradient(to bottom right, #FF4A5D, #e6394a)",
