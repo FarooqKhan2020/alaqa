@@ -30,23 +30,38 @@ export default function DrivingTransformation() {
 
           {/* Right Visual */}
           <div className="relative order-1 md:order-2 mb-8 md:mb-0 hidden md:block">
-            <div className="w-full h-64 sm:h-80 md:h-96 rounded-lg flex items-center justify-center transform rotate-12 opacity-20 overflow-hidden" style={{ background: "linear-gradient(to bottom right, #FF4A5D, #e6394a)" }}>
+            <div
+              className="w-full h-64 sm:h-80 md:h-96 rounded-lg flex items-center justify-center transform rotate-12 opacity-20 overflow-hidden"
+              style={{
+                background:
+                  "linear-gradient(to bottom right, #FF4A5D, #e6394a)",
+              }}
+            >
               <Image
-                src="/hero/as-circular-logo.webp" 
+                src="/hero/as-circular-logo.webp"
                 alt="Background Image"
-                width={200} 
+                width={200}
                 height={200}
                 className="opacity-50 object-contain"
               />
             </div>
 
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-lg transform -rotate-12 shadow-2xl" style={{ backgroundColor: "#FF4A5D" }}>
-                <div className="w-full h-full rounded-lg flex items-center justify-center" style={{ background: "linear-gradient(to bottom right, #FF4A5D, #e6394a)" }}>
+              <div
+                className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-lg transform -rotate-12 shadow-2xl"
+                style={{ backgroundColor: "#FF4A5D" }}
+              >
+                <div
+                  className="w-full h-full rounded-lg flex items-center justify-center"
+                  style={{
+                    background:
+                      "linear-gradient(to bottom right, #FF4A5D, #e6394a)",
+                  }}
+                >
                   <Image
-                    src="/hero/as-circular-logo.webp" 
+                    src="/hero/as-circular-logo.webp"
                     alt="Center Image"
-                    width={200} 
+                    width={200}
                     height={200}
                     className="object-contain"
                   />
