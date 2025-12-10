@@ -33,14 +33,14 @@ export default function Certifications() {
                 border border-gray-200
                 overflow-hidden
                 transition-all duration-300
-                hover:scale-110 hover:shadow-2xl hover:border-[#FF4A5D]
+                hover:scale-110 hover:shadow-2xl hover:border-[#5E5CE6]
               "
             >
               {/* Outer animated ring */}
               <div
                 className="
                   absolute inset-0 rounded-full border-2 border-transparent
-                  group-hover:border-[#FF4A5D] group-hover:animate-pulse
+                  group-hover:border-[#5E5CE6] group-hover:animate-pulse
                 "
               ></div>
 
@@ -52,7 +52,7 @@ export default function Certifications() {
               />
 
               {/* Glow effect */}
-              <div className="absolute inset-0 rounded-full bg-[#FF4A5D]/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="absolute inset-0 rounded-full bg-[#5E5CE6]/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
           ))}
         </div>

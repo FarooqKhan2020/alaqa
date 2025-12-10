@@ -11,36 +11,36 @@ export default function Button({ children, variant = "primary", className = "", 
 
   const getStyle = () => {
     if (variant === "primary") {
-      return { backgroundColor: "#FF4A5D" };
+      return { backgroundColor: "#5E5CE6" };
     } else if (variant === "outline") {
-      return { borderColor: "#FF4A5D", color: "#FF4A5D" };
+      return { borderColor: "#5E5CE6", color: "#5E5CE6" };
     } else if (variant === "secondary") {
-      return { borderColor: "#FF4A5D", color: "#FF4A5D" };
+      return { borderColor: "#5E5CE6", color: "#5E5CE6" };
     }
     return {};
   };
 
   const handleMouseEnter = (e) => {
     if (variant === "primary") {
-      e.currentTarget.style.backgroundColor = "#e6394a";
+      e.currentTarget.style.backgroundColor = "#4C4AD4";
     } else if (variant === "outline") {
-      e.currentTarget.style.backgroundColor = "#FF4A5D";
+      e.currentTarget.style.backgroundColor = "#5E5CE6";
       e.currentTarget.style.color = "white";
     } else if (variant === "secondary") {
-      e.currentTarget.style.backgroundColor = "#FF4A5D";
+      e.currentTarget.style.backgroundColor = "#5E5CE6";
       e.currentTarget.style.color = "white";
     }
   };
 
   const handleMouseLeave = (e) => {
     if (variant === "primary") {
-      e.currentTarget.style.backgroundColor = "#FF4A5D";
+      e.currentTarget.style.backgroundColor = "#5E5CE6";
     } else if (variant === "outline") {
       e.currentTarget.style.backgroundColor = "white";
-      e.currentTarget.style.color = "#FF4A5D";
+      e.currentTarget.style.color = "#5E5CE6";
     } else if (variant === "secondary") {
       e.currentTarget.style.backgroundColor = "white";
-      e.currentTarget.style.color = "#FF4A5D";
+      e.currentTarget.style.color = "#5E5CE6";
     }
   };
 

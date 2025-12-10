@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
           WE BUILD & REFINE<br />
-          <span style={{ color: "#FF4A5D" }}>SMART WEB SOLUTIONS</span>
+          <span style={{ color: "#5E5CE6" }}>SMART WEB SOLUTIONS</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
           We deliver end-to-end web design, development & marketing services with 200% approach.
@@ -39,7 +39,7 @@ export default function Hero() {
       </div>
 
       {/* Award Banner */}
-      <div className="absolute bottom-0 left-0 right-0 py-3" style={{ backgroundColor: "#FF4A5D" }}>
+      <div className="absolute bottom-0 left-0 right-0 py-3" style={{ backgroundColor: "#5E5CE6" }}>
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center space-x-2 text-white text-sm md:text-base">
             <svg className="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 20 20">

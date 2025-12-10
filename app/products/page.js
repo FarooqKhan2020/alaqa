@@ -71,12 +71,12 @@ export default function Products() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Our Products
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Innovative <span style={{ color: "#FF4A5D" }}>Software Products</span>
+              Innovative <span style={{ color: "#5E5CE6" }}>Software Products</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               Discover our range of software products designed to solve real business challenges.
@@ -94,10 +94,10 @@ export default function Products() {
                 key={index}
                 className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${
                   index === 0 
-                    ? "text-white shadow-lg bg-[#FF4A5D]" 
-                    : "text-gray-700 hover:text-white hover:shadow-lg border-2 hover:bg-[#FF4A5D] hover:border-[#FF4A5D]"
+                    ? "text-white shadow-lg bg-[#5E5CE6]" 
+                    : "text-gray-700 hover:text-white hover:shadow-lg border-2 hover:bg-[#5E5CE6] hover:border-[#5E5CE6]"
                 }`}
-                style={index === 0 ? {} : { borderColor: "#FF4A5D", backgroundColor: "transparent" }}
+                style={index === 0 ? {} : { borderColor: "#5E5CE6", backgroundColor: "transparent" }}
               >
                 {category}
               </button>
@@ -130,7 +130,7 @@ export default function Products() {
                 </div>
                 <div className="p-6">
                   <div className="mb-2">
-                    <span className="text-xs font-semibold px-2 py-1 rounded" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+                    <span className="text-xs font-semibold px-2 py-1 rounded" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                       {product.category}
                     </span>
                   </div>
@@ -139,7 +139,7 @@ export default function Products() {
                   <ul className="space-y-2 mb-6">
                     {product.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center text-sm text-gray-600">
-                        <svg className="w-4 h-4 mr-2 text-[#FF4A5D]" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="w-4 h-4 mr-2 text-[#5E5CE6]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                         {feature}

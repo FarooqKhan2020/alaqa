@@ -71,12 +71,12 @@ export default function Blog() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Blog
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Latest <span style={{ color: "#FF4A5D" }}>Insights & News</span>
+              Latest <span style={{ color: "#5E5CE6" }}>Insights & News</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               Stay updated with the latest trends, insights, and best practices in technology.
@@ -94,10 +94,10 @@ export default function Blog() {
                 key={index}
                 className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${
                   index === 0 
-                    ? "text-white shadow-lg bg-[#FF4A5D]" 
-                    : "text-gray-700 hover:text-white hover:shadow-lg border-2 hover:bg-[#FF4A5D] hover:border-[#FF4A5D]"
+                    ? "text-white shadow-lg bg-[#5E5CE6]" 
+                    : "text-gray-700 hover:text-white hover:shadow-lg border-2 hover:bg-[#5E5CE6] hover:border-[#5E5CE6]"
                 }`}
-                style={index === 0 ? {} : { borderColor: "#FF4A5D", backgroundColor: "transparent" }}
+                style={index === 0 ? {} : { borderColor: "#5E5CE6", backgroundColor: "transparent" }}
               >
                 {category}
               </button>
@@ -119,7 +119,7 @@ export default function Blog() {
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 rounded-full text-xs font-bold text-white" style={{ backgroundColor: "#FF4A5D" }}>
+                    <span className="px-3 py-1 rounded-full text-xs font-bold text-white" style={{ backgroundColor: "#5E5CE6" }}>
                       {post.category}
                     </span>
                   </div>
@@ -130,7 +130,7 @@ export default function Blog() {
                     <span className="mx-2">•</span>
                     <span>{post.author}</span>
                   </div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-3 hover:text-[#FF4A5D] transition-colors cursor-pointer">
+                  <h2 className="text-2xl font-bold text-gray-900 mb-3 hover:text-[#5E5CE6] transition-colors cursor-pointer">
                     {post.title}
                   </h2>
                   <p className="text-gray-600 leading-relaxed mb-4">{post.excerpt}</p>
@@ -156,7 +156,7 @@ export default function Blog() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-6 py-4 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-[#FF4A5D]"
+                className="flex-1 px-6 py-4 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-[#5E5CE6]"
               />
               <Button variant="primary" className="text-lg px-8 py-4">
                 Subscribe

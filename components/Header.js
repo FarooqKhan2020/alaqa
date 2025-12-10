@@ -52,8 +52,8 @@ export default function Header() {
                 href="tel:+1234567890"
                 className={`w-10 h-10 rounded-full border-2 flex items-center justify-center transition-all duration-300 hover:scale-110 ${
                   mounted && isScrolled
-                    ? "border-[#383645] text-[#383645] hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
-                    : "border-white text-white hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
+                    ? "border-[#383645] text-[#383645] hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
+                    : "border-white text-white hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
                 }`}
               >
                 <svg
@@ -70,8 +70,8 @@ export default function Header() {
                 href="mailto:info@alaqa.com"
                 className={`w-10 h-10 rounded-full border-2 flex items-center justify-center transition-all duration-300 hover:scale-110 ${
                   mounted && isScrolled
-                    ? "border-[#383645] text-[#383645] hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
-                    : "border-white text-white hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
+                    ? "border-[#383645] text-[#383645] hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
+                    : "border-white text-white hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
                 }`}
               >
                 <svg
@@ -91,8 +91,8 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className={`w-10 h-10 rounded-full border-2 flex items-center justify-center transition-all duration-300 hover:scale-110 ${
                   mounted && isScrolled
-                    ? "border-[#383645] text-[#383645] hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
-                    : "border-white text-white hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
+                    ? "border-[#383645] text-[#383645] hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
+                    : "border-white text-white hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
                 }`}
               >
                 <svg
@@ -109,8 +109,8 @@ export default function Header() {
                 href="skype:alaqa?call"
                 className={`w-10 h-10 rounded-full border-2 flex items-center justify-center transition-all duration-300 hover:scale-110 ${
                   mounted && isScrolled
-                    ? "border-[#383645] text-[#383645] hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
-                    : "border-white text-white hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
+                    ? "border-[#383645] text-[#383645] hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
+                    : "border-white text-white hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
                 }`}
               >
                 <svg
@@ -128,7 +128,7 @@ export default function Header() {
                 href="/contact"
                 className={`px-6 py-2.5 rounded-lg border-2 font-bold text-sm uppercase transition-all duration-300 hover:scale-105 mr-4 ${
                   mounted && isScrolled
-                    ? "border-[#383645] text-[#383645] bg-transparent hover:bg-[#FF4A5D] hover:border-[#FF4A5D] hover:text-white"
+                    ? "border-[#383645] text-[#383645] bg-transparent hover:bg-[#5E5CE6] hover:border-[#5E5CE6] hover:text-white"
                     : "border-white text-white bg-transparent hover:bg-white hover:text-black"
                 }`}
               >
@@ -141,8 +141,8 @@ export default function Header() {
           <button
             className={`w-10 h-10 rounded-lg border-2 flex items-center justify-center transition-all duration-300 hover:scale-105 ${
               mounted && isScrolled
-                    ? "border-[#383645] text-[#383645] hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
-                    : "border-white text-white hover:border-[#FF4A5D] hover:text-[#FF4A5D]"
+                    ? "border-[#383645] text-[#383645] hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
+                    : "border-white text-white hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"

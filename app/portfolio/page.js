@@ -104,12 +104,12 @@ export default function Portfolio() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Portfolio
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Our <span style={{ color: "#FF4A5D" }}>Success Stories</span>
+              Our <span style={{ color: "#5E5CE6" }}>Success Stories</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               Explore our portfolio of successful projects that have transformed businesses across various industries.
@@ -129,7 +129,7 @@ export default function Portfolio() {
               { number: "15+", label: "Countries Served" }
             ].map((stat, index) => (
               <div key={index}>
-                <div className="text-4xl md:text-5xl font-bold mb-2" style={{ color: "#FF4A5D" }}>{stat.number}</div>
+                <div className="text-4xl md:text-5xl font-bold mb-2" style={{ color: "#5E5CE6" }}>{stat.number}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </div>
             ))}
@@ -146,10 +146,10 @@ export default function Portfolio() {
                 key={index}
                 className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${
                   index === 0 
-                    ? "text-white shadow-lg bg-[#FF4A5D]" 
-                    : "text-gray-700 hover:text-white hover:shadow-lg border-2 hover:bg-[#FF4A5D] hover:border-[#FF4A5D]"
+                    ? "text-white shadow-lg bg-[#5E5CE6]" 
+                    : "text-gray-700 hover:text-white hover:shadow-lg border-2 hover:bg-[#5E5CE6] hover:border-[#5E5CE6]"
                 }`}
-                style={index === 0 ? {} : { borderColor: "#FF4A5D", backgroundColor: "transparent" }}
+                style={index === 0 ? {} : { borderColor: "#5E5CE6", backgroundColor: "transparent" }}
               >
                 {category}
               </button>
@@ -182,7 +182,7 @@ export default function Portfolio() {
                     </div>
                   </div>
                   <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 rounded-full text-xs font-bold text-white" style={{ backgroundColor: "#FF4A5D" }}>
+                    <span className="px-3 py-1 rounded-full text-xs font-bold text-white" style={{ backgroundColor: "#5E5CE6" }}>
                       {project.category}
                     </span>
                   </div>
@@ -192,7 +192,7 @@ export default function Portfolio() {
                     <span className="text-sm text-gray-500">{project.year}</span>
                     <span className="text-sm text-gray-500">{project.client}</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#FF4A5D] transition-colors">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#5E5CE6] transition-colors">
                     {project.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">{project.description}</p>

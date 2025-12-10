@@ -11,7 +11,7 @@ export default function DrivingTransformation() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4 md:mb-6 leading-tight">
               DRIVING YOUR
               <br />
-              <span style={{ color: "#FF4A5D" }}>DIGITAL TRANSFORMATION</span>
+              <span style={{ color: "#5E5CE6" }}>DIGITAL TRANSFORMATION</span>
             </h2>
             <p className="text-gray-700 text-base md:text-lg mb-6 md:mb-8 leading-relaxed">
               We help enterprises through custom business solutions and provide
@@ -34,7 +34,7 @@ export default function DrivingTransformation() {
               className="w-90 h-64 sm:h-80 md:h-96 rounded-lg flex items-center justify-center transform rotate-12 opacity-20 overflow-hidden"
               style={{
                 background:
-                  "linear-gradient(to bottom right, #FF4A5D, #e6394a)",
+                  "linear-gradient(to bottom right, #5E5CE6, #4C4AD4)",
               }}
             >
               <Image
@@ -49,13 +49,13 @@ export default function DrivingTransformation() {
             <div className="absolute inset-0 flex items-center justify-center">
               <div
                 className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-lg transform -rotate-12 shadow-2xl"
-                style={{ backgroundColor: "#FF4A5D" }}
+                style={{ backgroundColor: "#5E5CE6" }}
               >
                 <div
                   className="w-full h-full rounded-lg flex items-center justify-center"
                   style={{
                     background:
-                      "linear-gradient(to bottom right, #FF4A5D, #e6394a)",
+                      "linear-gradient(to bottom right, #5E5CE6, #4C4AD4)",
                   }}
                 >
                   <Image

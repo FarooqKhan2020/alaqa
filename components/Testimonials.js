@@ -54,7 +54,7 @@ export default function Testimonials() {
               <div className="mb-6">
                 <svg
                   className="w-12 h-12 mb-4"
-                  style={{ color: "#FF4A5D" }}
+                  style={{ color: "#5E5CE6" }}
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >

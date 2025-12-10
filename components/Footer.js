@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company */}
           <div>
-            <h3 className="text-xl font-bold mb-4" style={{ color: "#FF4A5D" }}>
+            <h3 className="text-xl font-bold mb-4" style={{ color: "#5E5CE6" }}>
               Company
             </h3>
             <ul className="space-y-2">
@@ -30,9 +30,9 @@ export default function Footer() {
                 <Link
                   href="/about"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -45,9 +45,9 @@ export default function Footer() {
                 <Link
                   href="/careers"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -60,9 +60,9 @@ export default function Footer() {
                 <Link
                   href="/team"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -75,9 +75,9 @@ export default function Footer() {
                 <Link
                   href="/blog"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -90,9 +90,9 @@ export default function Footer() {
                 <Link
                   href="/contact"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -105,9 +105,9 @@ export default function Footer() {
                 <Link
                   href="/privacy-policy"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -121,7 +121,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="text-xl font-bold mb-4" style={{ color: "#FF4A5D" }}>
+            <h3 className="text-xl font-bold mb-4" style={{ color: "#5E5CE6" }}>
               Services
             </h3>
             <ul className="space-y-2">
@@ -129,9 +129,9 @@ export default function Footer() {
                 <Link
                   href="/services"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -144,9 +144,9 @@ export default function Footer() {
                 <Link
                   href="/services/web-development"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -159,9 +159,9 @@ export default function Footer() {
                 <Link
                   href="/services/mobile-app-development"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -174,9 +174,9 @@ export default function Footer() {
                 <Link
                   href="/services/ui-ux-design"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -189,9 +189,9 @@ export default function Footer() {
                 <Link
                   href="/services/digital-marketing"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -204,9 +204,9 @@ export default function Footer() {
                 <Link
                   href="/services/blockchain-development"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -219,9 +219,9 @@ export default function Footer() {
                 <Link
                   href="/services/cloud-solutions"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -235,7 +235,7 @@ export default function Footer() {
 
           {/* Hire Dedicated Resources */}
           <div>
-            <h3 className="text-xl font-bold mb-4" style={{ color: "#FF4A5D" }}>
+            <h3 className="text-xl font-bold mb-4" style={{ color: "#5E5CE6" }}>
               Hire Dedicated Resources
             </h3>
             <ul className="space-y-2">
@@ -243,9 +243,9 @@ export default function Footer() {
                 <Link
                   href="/hire-engineer"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -258,9 +258,9 @@ export default function Footer() {
                 <Link
                   href="/hire-engineer/dotnet-developer"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -273,9 +273,9 @@ export default function Footer() {
                 <Link
                   href="/hire-engineer/php-developer"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -288,9 +288,9 @@ export default function Footer() {
                 <Link
                   href="/hire-engineer/java-developer"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -303,9 +303,9 @@ export default function Footer() {
                 <Link
                   href="/hire-engineer/react-developer"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -318,9 +318,9 @@ export default function Footer() {
                 <Link
                   href="/hire-engineer/nodejs-developer"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -333,9 +333,9 @@ export default function Footer() {
                 <Link
                   href="/hire-engineer/mobile-developer"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -348,9 +348,9 @@ export default function Footer() {
                 <Link
                   href="/hire-engineer/full-stack-developer"
                   className="transition-colors"
-                  style={{ "--hover-color": "#FF4A5D" }}
+                  style={{ "--hover-color": "#5E5CE6" }}
                   onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "#FF4A5D")
+                    (e.currentTarget.style.color = "#5E5CE6")
                   }
                   onMouseLeave={(e) =>
                     (e.currentTarget.style.color = "currentColor")
@@ -364,14 +364,14 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-xl font-bold mb-4" style={{ color: "#FF4A5D" }}>
+            <h3 className="text-xl font-bold mb-4" style={{ color: "#5E5CE6" }}>
               Contact
             </h3>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <svg
                   className="w-5 h-5 mr-2 mt-1"
-                  style={{ color: "#FF4A5D" }}
+                  style={{ color: "#5E5CE6" }}
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -382,7 +382,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <svg
                   className="w-5 h-5 mr-2 mt-1"
-                  style={{ color: "#FF4A5D" }}
+                  style={{ color: "#5E5CE6" }}
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -394,7 +394,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <svg
                   className="w-5 h-5 mr-2 mt-1"
-                  style={{ color: "#FF4A5D" }}
+                  style={{ color: "#5E5CE6" }}
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -432,8 +432,8 @@ export default function Footer() {
                 type="email"
                 placeholder="Enter your email"
                 className="flex-1 px-4 py-3 rounded-lg bg-gray-900 text-white border border-gray-700 focus:outline-none"
-                style={{ "--focus-border": "#FF4A5D" }}
-                onFocus={(e) => (e.currentTarget.style.borderColor = "#FF4A5D")}
+                style={{ "--focus-border": "#5E5CE6" }}
+                onFocus={(e) => (e.currentTarget.style.borderColor = "#5E5CE6")}
                 onBlur={(e) => (e.currentTarget.style.borderColor = "#374151")}
               />
               <Button variant="primary">Subscribe</Button>
@@ -451,7 +451,7 @@ export default function Footer() {
               <a
                 href="#"
                 className="text-gray-400 transition-colors"
-                onMouseEnter={(e) => (e.currentTarget.style.color = "#FF4A5D")}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#5E5CE6")}
                 onMouseLeave={(e) => (e.currentTarget.style.color = "#9CA3AF")}
               >
                 <svg
@@ -465,7 +465,7 @@ export default function Footer() {
               <a
                 href="#"
                 className="text-gray-400 transition-colors"
-                onMouseEnter={(e) => (e.currentTarget.style.color = "#FF4A5D")}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#5E5CE6")}
                 onMouseLeave={(e) => (e.currentTarget.style.color = "#9CA3AF")}
               >
                 <svg
@@ -479,7 +479,7 @@ export default function Footer() {
               <a
                 href="#"
                 className="text-gray-400 transition-colors"
-                onMouseEnter={(e) => (e.currentTarget.style.color = "#FF4A5D")}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#5E5CE6")}
                 onMouseLeave={(e) => (e.currentTarget.style.color = "#9CA3AF")}
               >
                 <svg
@@ -493,7 +493,7 @@ export default function Footer() {
               <a
                 href="#"
                 className="text-gray-400 transition-colors"
-                onMouseEnter={(e) => (e.currentTarget.style.color = "#FF4A5D")}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#5E5CE6")}
                 onMouseLeave={(e) => (e.currentTarget.style.color = "#9CA3AF")}
               >
                 <svg
@@ -507,7 +507,7 @@ export default function Footer() {
               <a
                 href="#"
                 className="text-gray-400 transition-colors"
-                onMouseEnter={(e) => (e.currentTarget.style.color = "#FF4A5D")}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#5E5CE6")}
                 onMouseLeave={(e) => (e.currentTarget.style.color = "#9CA3AF")}
               >
                 <svg

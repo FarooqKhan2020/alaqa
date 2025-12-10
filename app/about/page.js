@@ -18,12 +18,12 @@ export default function AboutUs() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 About Us
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Building Tomorrow's <span style={{ color: "#FF4A5D" }}>Digital Solutions</span>
+              Building Tomorrow's <span style={{ color: "#5E5CE6" }}>Digital Solutions</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               We are a leading IT services company dedicated to transforming businesses through innovative technology solutions.
@@ -37,7 +37,7 @@ export default function AboutUs() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg border border-gray-100">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: "#FF4A5D" }}>
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: "#5E5CE6" }}>
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -49,7 +49,7 @@ export default function AboutUs() {
             </div>
 
             <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg border border-gray-100">
-              <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: "#FF4A5D" }}>
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: "#5E5CE6" }}>
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -69,14 +69,14 @@ export default function AboutUs() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Why Choose Us
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
               What Sets Us Apart
             </h2>
-            <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#FF4A5D" }}></div>
+            <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#5E5CE6" }}></div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -123,7 +123,7 @@ export default function AboutUs() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20" style={{ backgroundColor: "#FF4A5D" }}>
+      <section className="py-20" style={{ backgroundColor: "#5E5CE6" }}>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto text-center">
             {[

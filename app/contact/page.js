@@ -69,12 +69,12 @@ export default function Contact() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Contact Us
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Get In <span style={{ color: "#FF4A5D" }}>Touch</span>
+              Get In <span style={{ color: "#5E5CE6" }}>Touch</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               Have a project in mind? Let's discuss how we can help bring your ideas to life.
@@ -99,7 +99,7 @@ export default function Contact() {
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-start space-x-4">
-                    <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "#FF4A5D" }}>
+                    <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "#5E5CE6" }}>
                       <div className="text-white">
                         {info.icon}
                       </div>
@@ -123,14 +123,14 @@ export default function Contact() {
                       key={idx}
                       href="#"
                       className="w-10 h-10 rounded-full border-2 flex items-center justify-center text-gray-600 hover:text-white transition-all duration-300"
-                      style={{ borderColor: "#FF4A5D" }}
+                      style={{ borderColor: "#5E5CE6" }}
                       onMouseEnter={(e) => {
-                        e.currentTarget.style.backgroundColor = "#FF4A5D";
-                        e.currentTarget.style.borderColor = "#FF4A5D";
+                        e.currentTarget.style.backgroundColor = "#5E5CE6";
+                        e.currentTarget.style.borderColor = "#5E5CE6";
                       }}
                       onMouseLeave={(e) => {
                         e.currentTarget.style.backgroundColor = "transparent";
-                        e.currentTarget.style.borderColor = "#FF4A5D";
+                        e.currentTarget.style.borderColor = "#5E5CE6";
                       }}
                     >
                       <span className="text-xs font-bold">{social[0]}</span>
@@ -155,7 +155,7 @@ export default function Contact() {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#FF4A5D] transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#5E5CE6] transition-colors"
                     placeholder="John Doe"
                   />
                 </div>
@@ -171,7 +171,7 @@ export default function Contact() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#FF4A5D] transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#5E5CE6] transition-colors"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -186,7 +186,7 @@ export default function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#FF4A5D] transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#5E5CE6] transition-colors"
                     placeholder="+1 (555) 123-4567"
                   />
                 </div>
@@ -202,7 +202,7 @@ export default function Contact() {
                     required
                     value={formData.subject}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#FF4A5D] transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#5E5CE6] transition-colors"
                     placeholder="How can we help?"
                   />
                 </div>
@@ -218,7 +218,7 @@ export default function Contact() {
                     rows="5"
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#FF4A5D] transition-colors resize-none"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#5E5CE6] transition-colors resize-none"
                     placeholder="Tell us about your project..."
                   ></textarea>
                 </div>

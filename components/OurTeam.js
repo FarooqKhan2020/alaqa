@@ -38,7 +38,7 @@ export default function OurTeam() {
   };
 
   return (
-    <section className="py-20" style={{ backgroundColor: "#FF4A5D" }}>
+    <section className="py-20" style={{ backgroundColor: "#5E5CE6" }}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -74,7 +74,7 @@ export default function OurTeam() {
                 key={index}
                 className="bg-white rounded-lg p-6 shadow-xl text-center transform transition-all duration-300 hover:scale-105"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 relative" style={{ borderColor: "#FF4A5D" }}>
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 relative" style={{ borderColor: "#5E5CE6" }}>
                   <Image
                     src={member.image}
                     alt={member.name}
@@ -85,7 +85,7 @@ export default function OurTeam() {
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   {member.name}
                 </h3>
-                <p className="font-semibold" style={{ color: "#FF4A5D" }}>{member.role}</p>
+                <p className="font-semibold" style={{ color: "#5E5CE6" }}>{member.role}</p>
               </div>
             ))}
           </div>

@@ -17,12 +17,12 @@ export default function PrivacyPolicy() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Privacy Policy
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Privacy <span style={{ color: "#FF4A5D" }}>Policy</span>
+              Privacy <span style={{ color: "#5E5CE6" }}>Policy</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               Last updated: March 2024

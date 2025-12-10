@@ -72,12 +72,12 @@ export default function Careers() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Careers
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Join Our <span style={{ color: "#FF4A5D" }}>Growing Team</span>
+              Join Our <span style={{ color: "#5E5CE6" }}>Growing Team</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               Be part of an innovative team that's shaping the future of technology. Explore exciting career opportunities with us.
@@ -91,14 +91,14 @@ export default function Careers() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Why Work With Us
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
               Benefits & Perks
             </h2>
-            <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#FF4A5D" }}></div>
+            <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#5E5CE6" }}></div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -118,14 +118,14 @@ export default function Careers() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#FF4A5D", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
                 Open Positions
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
               Current Job Openings
             </h2>
-            <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#FF4A5D" }}></div>
+            <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#5E5CE6" }}></div>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6">

@@ -147,7 +147,7 @@ export default function Sidebar({ isOpen, onClose }) {
       {/* Sidebar */}
       <div className="fixed right-0 top-0 h-full w-80 bg-white z-[70] shadow-2xl flex flex-col overflow-hidden animate-slide-in-right">
         {/* Orange Gradient Header with Wavy Line */}
-        <div className="relative pt-6 pb-8 px-6" style={{ background: "linear-gradient(to bottom right, #FF4A5D, #e6394a)" }}>
+        <div className="relative pt-6 pb-8 px-6" style={{ background: "linear-gradient(to bottom right, #5E5CE6, #4C4AD4)" }}>
           {/* Close Button */}
           <button
             onClick={(e) => {
@@ -207,7 +207,7 @@ export default function Sidebar({ isOpen, onClose }) {
                         ? "text-white shadow-md"
                         : "text-gray-700 hover:bg-gray-50"
                     }`}
-                    style={isActive ? { backgroundColor: "#FF4A5D" } : {}}
+                    style={isActive ? { backgroundColor: "#5E5CE6" } : {}}
                   >
                     <div className="flex items-center space-x-3 flex-1">
                       {/* Icon */}
@@ -271,10 +271,10 @@ export default function Sidebar({ isOpen, onClose }) {
                         href={subItem.href}
                         onClick={() => onClose()}
                         className="block px-4 py-2.5 text-sm text-gray-700 rounded-lg transition-colors"
-                        style={{ "--hover-color": "#FF4A5D", "--hover-bg": "rgba(255, 74, 93, 0.1)" }}
+                        style={{ "--hover-color": "#5E5CE6", "--hover-bg": "rgba(94, 92, 230, 0.1)" }}
                         onMouseEnter={(e) => {
-                          e.currentTarget.style.color = "#FF4A5D";
-                          e.currentTarget.style.backgroundColor = "rgba(255, 74, 93, 0.1)";
+                          e.currentTarget.style.color = "#5E5CE6";
+                          e.currentTarget.style.backgroundColor = "rgba(94, 92, 230, 0.1)";
                         }}
                         onMouseLeave={(e) => {
                           e.currentTarget.style.color = "#374151";

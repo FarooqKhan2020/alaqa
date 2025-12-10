@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import Lottie from "lottie-react";
 import Button from "./Button";
 
@@ -7,7 +8,8 @@ import customDevAnimation from "../components/animations/custom-dev.json";
 import mobileAppAnimation from "../components/animations/mobile-app.json";
 import blockchainAnimation from "../components/animations/blockchain.json";
 import erpAnimation from "../components/animations/erp.json";
-import dedicatedTeamAnimation from "../components/animations/dedicated-team.json";
+// import luxuryLeasingAnimation from "../components/animations/dedicated-team.json";
+import luxuryLeasingAnimation from "../components/animations/luxury-animation.json";
 import cloudAnimation from "../components/animations/cloud.json";
 import digitalMarketingAnimation from "../components/animations/digital-marketing.json";
 import aiMLAnimation from "../components/animations/ai-ml.json";
@@ -18,48 +20,56 @@ const services = [
     title: "Custom Development",
     description:
       "Tailored software solutions designed to meet your unique business requirements and drive growth.",
+    href: "/services/web-development",
   },
   {
     animation: mobileAppAnimation,
     title: "Mobile App Development",
     description:
       "Native and cross-platform mobile applications for iOS and Android with exceptional user experience.",
+    href: "/services/mobile-app-development",
   },
   {
     animation: blockchainAnimation,
     title: "Blockchain Development",
     description:
       "Secure blockchain solutions, smart contracts, and decentralized applications for the future.",
+    href: "/services/blockchain-development",
   },
   {
     animation: erpAnimation,
     title: "ERP Development",
     description:
       "Enterprise resource planning systems to streamline your business operations and increase efficiency.",
+    href: "/services/erp-solutions",
   },
   {
-    animation: dedicatedTeamAnimation,
-    title: "Dedicated Teams",
+    animation: luxuryLeasingAnimation,
+    title: "Luxury Leasing Solutions",
     description:
-      "Hire dedicated developers and teams to work exclusively on your projects with full commitment.",
+      "We are a leading venture capital firm committed to supporting visionary entrepreneurs and fueling the growth.",
+    href: "/services/luxury-leasing-solutions",
   },
   {
     animation: cloudAnimation,
     title: "Cloud Services",
     description:
       "Scalable cloud infrastructure and services to support your business growth and digital transformation.",
+    href: "/services/cloud-solutions",
   },
   {
     animation: digitalMarketingAnimation,
     title: "Digital Marketing",
     description:
       "Comprehensive digital marketing strategies to boost your online presence and drive conversions.",
+    href: "/services/digital-marketing",
   },
   {
     animation: aiMLAnimation,
     title: "AI & ML Development",
     description:
       "Intelligent solutions powered by artificial intelligence and machine learning technologies.",
+    href: "/services/ai-ml-solutions",
   },
 ];
 
@@ -68,7 +78,7 @@ export default function WhatWeDo() {
 
   return (
     <section id="services" className="py-24 relative overflow-hidden" style={{ 
-      background: "linear-gradient(135deg, #FF4A5D 0%, #e6394a 50%, #c92a3a 100%)"
+      background: "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 50%, #c92a3a 100%)"
     }}>
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -86,7 +96,7 @@ export default function WhatWeDo() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
-            <span className="text-sm font-bold uppercase tracking-widest px-6 py-2 rounded-full bg-white text-[#FF4A5D] shadow-lg">
+            <span className="text-sm font-bold uppercase tracking-widest px-6 py-2 rounded-full bg-white text-[#5E5CE6] shadow-lg">
               Our Services
             </span>
           </div>
@@ -115,7 +125,7 @@ export default function WhatWeDo() {
                     : "hover:-translate-y-2"
                 }`}
                 style={{
-                  borderTop: hoveredIndex === index ? "4px solid #FF4A5D" : "4px solid transparent",
+                  borderTop: hoveredIndex === index ? "4px solid #5E5CE6" : "4px solid transparent",
                 }}
               >
                 {/* Animation container with gradient background */}
@@ -149,7 +159,7 @@ export default function WhatWeDo() {
                 <div className="grow">
                   <h3
                     className={`text-xl font-bold mb-4 transition-all duration-300 ${
-                      hoveredIndex === index ? "text-[#FF4A5D]" : "text-gray-900"
+                      hoveredIndex === index ? "text-[#5E5CE6]" : "text-gray-900"
                     }`}
                   >
                     {service.title}
@@ -160,11 +170,12 @@ export default function WhatWeDo() {
                 </div>
 
                 {/* Button */}
-                <button
+                <Link
+                  href={service.href}
                   className={`font-semibold flex items-center justify-center transition-all duration-300 w-full py-3 rounded-lg ${
                     hoveredIndex === index
-                      ? "bg-[#FF4A5D] text-white shadow-lg"
-                      : "text-[#FF4A5D] bg-transparent hover:text-[#e6394a] hover:bg-gray-50"
+                      ? "bg-[#5E5CE6] text-white shadow-lg"
+                      : "text-[#5E5CE6] bg-transparent hover:text-[#4C4AD4] hover:bg-gray-50"
                   }`}
                 >
                   <span>Read More</span>
@@ -185,14 +196,14 @@ export default function WhatWeDo() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </button>
+                </Link>
               </div>
 
               {/* Glow effect on hover */}
               {hoveredIndex === index && (
                 <div
                   className="absolute inset-0 rounded-2xl opacity-20 blur-xl -z-10 transition-opacity duration-500"
-                  style={{ backgroundColor: "#FF4A5D" }}
+                  style={{ backgroundColor: "#5E5CE6" }}
                 ></div>
               )}
             </div>

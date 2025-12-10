@@ -33,7 +33,7 @@ export default function EngagementModel() {
             <div
               key={index}
               className="rounded-lg p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
-              style={{ backgroundColor: "#FF4A5D" }}
+              style={{ backgroundColor: "#5E5CE6" }}
             >
               <div className="text-6xl mb-6">{model.icon}</div>
               <h3 className="text-2xl font-bold text-white mb-4">
