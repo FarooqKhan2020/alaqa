@@ -15,7 +15,7 @@ export default function Button({ children, variant = "primary", className = "", 
     } else if (variant === "outline") {
       return { borderColor: "#6B1C95", color: "#6B1C95" };
     } else if (variant === "secondary") {
-      return { borderColor: "#6B1C95", color: "#6B1C95" };
+      return { borderColor: "6B1C95", color: "#6B1C95" };
     }
     return {};
   };

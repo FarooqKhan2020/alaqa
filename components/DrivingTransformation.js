@@ -63,7 +63,7 @@ export default function DrivingTransformation() {
                     alt="Center Image"
                     width={200}
                     height={200}
-                    className="object-contain"
+                    className="object-contain animate-rotate-smooth"
                   />
                 </div>
               </div>

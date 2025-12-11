@@ -97,7 +97,7 @@ export default function Products() {
                     ? "text-white shadow-lg bg-[#6B1C95]" 
                     : "text-gray-700 hover:text-white hover:shadow-lg border-2 hover:bg-[#6B1C95] hover:border-[#6B1C95]"
                 }`}
-                style={index === 0 ? {} : { borderColor: "#6B1C95", backgroundColor: "transparent" }}
+                style={index === 0 ? {} : { borderColor: "#6B1C95", backgroundColor: "" }}
               >
                 {category}
               </button>

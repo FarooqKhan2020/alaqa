@@ -322,7 +322,7 @@ export default async function ServiceDetail({ params }) {
               <div
                 key={index}
                 className="px-6 py-3 rounded-full border-2 font-semibold text-gray-700 hover:text-white hover:bg-[#6B1C95] hover:border-[#6B1C95] transition-all duration-300"
-                style={{ borderColor: "#6B1C95", backgroundColor: "transparent" }}
+                style={{ borderColor: "#6B1C95", backgroundColor: "" }}
               >
                 {tech}
               </div>

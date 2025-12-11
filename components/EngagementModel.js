@@ -42,7 +42,7 @@ export default function EngagementModel() {
               <p className="mb-6 leading-relaxed" style={{ color: "rgba(255, 255, 255, 0.9)" }}>
                 {model.description}
               </p>
-              <Button variant="secondary" className="w-full">
+              <Button variant="secondary" className="w-full hover:border-white">
                 {model.buttonText}
               </Button>
             </div>

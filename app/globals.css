@@ -68,3 +68,17 @@ body {
 button:hover {
   cursor: pointer;
 }
+
+/* Smooth rotation animation for DrivingTransformation */
+@keyframes rotate-smooth {
+  0%, 100% {
+    transform: rotate(-12deg);
+  }
+  50% {
+    transform: rotate(12deg);
+  }
+}
+
+.animate-rotate-smooth {
+  animation: rotate-smooth 4s ease-in-out infinite;
+}
