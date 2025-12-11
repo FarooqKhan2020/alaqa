@@ -77,9 +77,7 @@ export default function WhatWeDo() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <section id="services" className="py-24 relative overflow-hidden" style={{ 
-      background: "linear-gradient(135deg, #6B1C95 0%, #5A1780 50%, #4A1266 100%)"
-    }}>
+    <section id="services" className="py-24 relative overflow-hidden bg-[#F5F5F7]">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full mix-blend-overlay filter blur-3xl opacity-10 animate-blob"></div>
@@ -100,11 +98,11 @@ export default function WhatWeDo() {
               Our Services
             </span>
           </div>
-          <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
+          <h2 className="text-5xl md:text-6xl font-bold text-black mb-6">
             What We Do
           </h2>
-          <div className="w-24 h-1 mx-auto mb-6 bg-white rounded-full"></div>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto leading-relaxed" style={{ color: "rgba(255, 255, 255, 0.95)" }}>
+          <div className="w-24 h-1 mx-auto mb-6 bg-[#6E6E73] rounded-full"></div>
+          <p className="text-xl md:text-2xl max-w-2xl mx-auto leading-relaxed text-[#6E6E73]">
             Empowering your business with digital solutions that drive innovation and growth.
           </p>
         </div>

@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-700 via-black to-gray-800 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-600 via-black to-gray-800 overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
         <video
