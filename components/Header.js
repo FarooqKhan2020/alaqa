@@ -36,12 +36,22 @@ export default function Header() {
           <div className="flex items-center space-x-4 w-full">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
-              <Image
-                src={mounted && isScrolled ? "/logod.png" : "/logol.png"}
+              {/* <Image
+                src={mounted && isScrolled ? "/logo/logodnew.png" : "/logodnew.png"}
                 alt="Alaqa Logo"
                 width={150}
                 height={100}
                 className="object-contain transition-all duration-300"
+              /> */}
+
+              <Image
+                src={"/logo/logodnew.png"}
+                alt="Alaqa Logo"
+                width={150}
+                height={100}
+                className={`object-contain transition-all duration-300 ${
+                  mounted && !isScrolled ? "invert" : ""
+                }`}
               />
             </Link>
 
@@ -122,7 +132,6 @@ export default function Header() {
                 </svg>
               </a>
 
-
               {/* Contact Us Button */}
               <Link
                 href="/contact"
@@ -141,8 +150,8 @@ export default function Header() {
           <button
             className={`w-10 h-10 rounded-lg border-2 flex items-center justify-center transition-all duration-300 hover:scale-105 ${
               mounted && isScrolled
-                    ? "border-[#383645] text-[#383645] hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
-                    : "border-white text-white hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
+                ? "border-[#383645] text-[#383645] hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
+                : "border-white text-white hover:border-[#5E5CE6] hover:text-[#5E5CE6]"
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"

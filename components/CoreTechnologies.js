@@ -1,15 +1,27 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 const technologies = {
   Frontend: [
+    { name: "HTML", logo: "/tech/html.svg" },
+    { name: "CSS", logo: "/tech/css.svg" },
+    { name: "Bootstrap", logo: "/tech/bootstrap.svg" },
+    { name: "Tailwind CSS", logo: "/tech/tailwind.svg" },
+    { name: "Material UI", logo: "/tech/material.svg" },
+    { name: "jQuery", logo: "/tech/jquery.svg" },
+    { name: "JavaScript", logo: "/tech/javascript.svg" },
     { name: "React", logo: "/tech/react.svg" },
     { name: "Angular", logo: "/tech/angular.svg" },
     { name: "Vue.js", logo: "/tech/vue.svg" },
     { name: "Next.js", logo: "/tech/nextjs.svg" },
     { name: "TypeScript", logo: "/tech/typescript.svg" },
-    { name: "JavaScript", logo: "/tech/javascript.svg" },
+    { name: "Svelte", logo: "/tech/svelte.svg" },
+    { name: "Ember.js", logo: "/tech/ember.svg" },
+    { name: "Ajax", logo: "/tech/ajax.svg" },
+    { name: "Lit", logo: "/tech/lit.svg" },
+    { name: "Backbone.js", logo: "/tech/backbone.svg" },
+    { name: "Redux", logo: "/tech/redux.svg" },
   ],
   Backend: [
     { name: "Node.js", logo: "/tech/node.svg" },
@@ -18,6 +30,12 @@ const technologies = {
     { name: ".NET", logo: "/tech/dotnet.svg" },
     { name: "PHP", logo: "/tech/php.svg" },
     { name: "Laravel", logo: "/tech/laravel.svg" },
+    { name: "Express.js", logo: "/tech/express.svg" },
+    { name: "Django", logo: "/tech/django.svg" },
+    { name: "Spring Boot", logo: "/tech/spring.svg" },
+    { name: "Ruby on Rails", logo: "/tech/rails.svg" },
+    { name: "FastAPI", logo: "/tech/fastapi.svg" },
+    { name: "NestJS", logo: "/tech/nestjs.svg" },
   ],
   Mobile: [
     { name: "React Native", logo: "/tech/reactnative.svg" },
@@ -26,6 +44,12 @@ const technologies = {
     { name: "Android", logo: "/tech/android.svg" },
     { name: "Kotlin", logo: "/tech/kotlin.svg" },
     { name: "Swift", logo: "/tech/swift.svg" },
+    { name: "Ionic", logo: "/tech/ionic.svg" },
+    { name: "Xamarin", logo: "/tech/xamarin.svg" },
+    { name: "NativeScript", logo: "/tech/nativescript.svg" },
+    { name: "Cordova", logo: "/tech/cordova.svg" },
+    { name: "Java", logo: "/tech/java.svg" },
+    { name: "SwiftUI", logo: "/tech/swiftui.svg" },
   ],
   Database: [
     { name: "MySQL", logo: "/tech/mysql.svg" },
@@ -34,6 +58,12 @@ const technologies = {
     { name: "Redis", logo: "/tech/redis.svg" },
     { name: "Oracle", logo: "/tech/oracle.svg" },
     { name: "Firebase", logo: "/tech/firebase.svg" },
+    { name: "Microsoft SQL Server", logo: "/tech/sqlserver.svg" },
+    { name: "Cassandra", logo: "/tech/cassandra.svg" },
+    { name: "DynamoDB", logo: "/tech/dynamodb.svg" },
+    { name: "Elasticsearch", logo: "/tech/elasticsearch.svg" },
+    { name: "Supabase", logo: "/tech/supabase.svg" },
+    { name: "CockroachDB", logo: "/tech/cockroachdb.svg" },
   ],
   Cloud: [
     { name: "AWS", logo: "/tech/aws.svg" },
@@ -42,6 +72,12 @@ const technologies = {
     { name: "Docker", logo: "/tech/docker.svg" },
     { name: "Kubernetes", logo: "/tech/kubernetes.svg" },
     { name: "DigitalOcean", logo: "/tech/digitalocean.svg" },
+    { name: "Terraform", logo: "/tech/terraform.svg" },
+    { name: "Serverless", logo: "/tech/serverless.svg" },
+    { name: "GitHub Actions", logo: "/tech/github.svg" },
+    { name: "Jenkins", logo: "/tech/jenkins.svg" },
+    { name: "Heroku", logo: "/tech/heroku.svg" },
+    { name: "Netlify", logo: "/tech/netlify.svg" },
   ],
 };
 
@@ -63,16 +99,23 @@ export default function CoreTechnologies() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
-            <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
+            <span
+              className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full"
+              style={{ backgroundColor: "#5E5CE6", color: "white" }}
+            >
               Technologies
             </span>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
             OUR CORE TECHNOLOGIES
           </h2>
-          <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#5E5CE6" }}></div>
+          <div
+            className="w-24 h-1 mx-auto mb-6"
+            style={{ backgroundColor: "#5E5CE6" }}
+          ></div>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Alaqa works across various modern technologies for effective, scalable and future-proof custom software development.
+            Alaqa works across various modern technologies for effective,
+            scalable and future-proof custom software development.
           </p>
         </div>
 
@@ -90,7 +133,8 @@ export default function CoreTechnologies() {
               style={
                 activeCategory === category
                   ? {
-                      background: "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 100%)",
+                      background:
+                        "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 100%)",
                     }
                   : {}
               }
@@ -121,7 +165,8 @@ export default function CoreTechnologies() {
                   <div
                     className="absolute inset-0 opacity-5"
                     style={{
-                      background: "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 100%)",
+                      background:
+                        "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 100%)",
                     }}
                   ></div>
                 )}
@@ -137,9 +182,10 @@ export default function CoreTechnologies() {
                     alt={tech.name}
                     className="w-20 h-20 md:w-24 md:h-24 object-contain"
                     style={{
-                      filter: hoveredTech === index
-                        ? "drop-shadow(0 10px 20px rgba(255, 74, 93, 0.3))"
-                        : "none",
+                      filter:
+                        hoveredTech === index
+                          ? "drop-shadow(0 10px 20px rgba(255, 74, 93, 0.3))"
+                          : "none",
                     }}
                   />
                 </div>
@@ -211,7 +257,8 @@ export default function CoreTechnologies() {
 
       <style jsx>{`
         @keyframes blob {
-          0%, 100% {
+          0%,
+          100% {
             transform: translate(0, 0) scale(1);
           }
           33% {

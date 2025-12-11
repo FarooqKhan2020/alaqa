@@ -11,9 +11,9 @@ export default function Footer() {
         <div className="flex justify-center mb-12">
           <Link href="/" className="w-24 h-16 rounded-lg flex items-center justify-center">
             <img
-              src="/logol.png" 
+              src="/logo/logodnew.png" 
               alt="Logo"
-              className="object-contain"
+              className="object-contain invert"
             />
           </Link>
         </div>
