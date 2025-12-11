@@ -239,7 +239,7 @@ export default async function ServiceDetail({ params }) {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#6B1C95", color: "white" }}>
                 {service.title}
               </span>
             </div>
@@ -279,7 +279,7 @@ export default async function ServiceDetail({ params }) {
               <ul className="space-y-4">
                 {service.features.map((feature, index) => (
                   <li key={index} className="flex items-start">
-                    <div className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: "#5E5CE6" }}>
+                    <div className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: "#6B1C95" }}>
                       <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
@@ -296,7 +296,7 @@ export default async function ServiceDetail({ params }) {
               <ul className="space-y-4">
                 {service.benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
-                    <div className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: "#5E5CE6" }}>
+                    <div className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: "#6B1C95" }}>
                       <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
@@ -315,14 +315,14 @@ export default async function ServiceDetail({ params }) {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Technologies We Use</h2>
-            <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#5E5CE6" }}></div>
+            <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#6B1C95" }}></div>
           </div>
           <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
             {service.technologies.map((tech, index) => (
               <div
                 key={index}
-                className="px-6 py-3 rounded-full border-2 font-semibold text-gray-700 hover:text-white hover:bg-[#5E5CE6] hover:border-[#5E5CE6] transition-all duration-300"
-                style={{ borderColor: "#5E5CE6", backgroundColor: "transparent" }}
+                className="px-6 py-3 rounded-full border-2 font-semibold text-gray-700 hover:text-white hover:bg-[#6B1C95] hover:border-[#6B1C95] transition-all duration-300"
+                style={{ borderColor: "#6B1C95", backgroundColor: "transparent" }}
               >
                 {tech}
               </div>

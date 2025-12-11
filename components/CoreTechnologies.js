@@ -101,7 +101,7 @@ export default function CoreTechnologies() {
           <div className="inline-block mb-6">
             <span
               className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full"
-              style={{ backgroundColor: "#5E5CE6", color: "white" }}
+              style={{ backgroundColor: "#6B1C95", color: "white" }}
             >
               Technologies
             </span>
@@ -111,7 +111,7 @@ export default function CoreTechnologies() {
           </h2>
           <div
             className="w-24 h-1 mx-auto mb-6"
-            style={{ backgroundColor: "#5E5CE6" }}
+            style={{ backgroundColor: "#6B1C95" }}
           ></div>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Alaqa works across various modern technologies for effective,
@@ -134,7 +134,7 @@ export default function CoreTechnologies() {
                 activeCategory === category
                   ? {
                       background:
-                        "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 100%)",
+                        "linear-gradient(135deg, #6B1C95 0%, #5A1780 100%)",
                     }
                   : {}
               }
@@ -156,7 +156,7 @@ export default function CoreTechnologies() {
               <div
                 className={`bg-white border-2 rounded-2xl p-6 transition-all duration-500 transform flex flex-col items-center justify-center aspect-square relative overflow-hidden ${
                   hoveredTech === index
-                    ? "border-[#5E5CE6] shadow-2xl scale-110 -translate-y-2"
+                    ? "border-[#6B1C95] shadow-2xl scale-110 -translate-y-2"
                     : "border-gray-200 hover:border-gray-300 hover:shadow-lg hover:scale-105"
                 }`}
               >
@@ -166,7 +166,7 @@ export default function CoreTechnologies() {
                     className="absolute inset-0 opacity-5"
                     style={{
                       background:
-                        "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 100%)",
+                        "linear-gradient(135deg, #6B1C95 0%, #5A1780 100%)",
                     }}
                   ></div>
                 )}
@@ -184,7 +184,7 @@ export default function CoreTechnologies() {
                     style={{
                       filter:
                         hoveredTech === index
-                          ? "drop-shadow(0 10px 20px rgba(255, 74, 93, 0.3))"
+                          ? "drop-shadow(0 10px 20px rgba(107, 28, 149, 0.3))"
                           : "none",
                     }}
                   />
@@ -193,7 +193,7 @@ export default function CoreTechnologies() {
                 {/* Tech name */}
                 <div
                   className={`text-sm font-semibold text-center transition-colors duration-300 relative z-10 ${
-                    hoveredTech === index ? "text-[#5E5CE6]" : "text-gray-700"
+                    hoveredTech === index ? "text-[#6B1C95]" : "text-gray-700"
                   }`}
                 >
                   {tech.name}
@@ -203,7 +203,7 @@ export default function CoreTechnologies() {
                 {hoveredTech === index && (
                   <div
                     className="absolute top-2 right-2 w-3 h-3 rounded-full transition-all duration-300"
-                    style={{ backgroundColor: "#5E5CE6" }}
+                    style={{ backgroundColor: "#6B1C95" }}
                   ></div>
                 )}
               </div>
@@ -212,7 +212,7 @@ export default function CoreTechnologies() {
               {hoveredTech === index && (
                 <div
                   className="absolute inset-0 rounded-2xl opacity-20 blur-xl -z-10 transition-opacity duration-500"
-                  style={{ backgroundColor: "#5E5CE6" }}
+                  style={{ backgroundColor: "#6B1C95" }}
                 ></div>
               )}
             </div>
@@ -224,17 +224,17 @@ export default function CoreTechnologies() {
           <button
             className="group font-semibold flex items-center justify-center mx-auto px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105"
             style={{
-              color: "#5E5CE6",
-              border: "2px solid #5E5CE6",
+              color: "#6B1C95",
+              border: "2px solid #6B1C95",
               backgroundColor: "transparent",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = "#5E5CE6";
+              e.currentTarget.style.backgroundColor = "#6B1C95";
               e.currentTarget.style.color = "white";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.backgroundColor = "transparent";
-              e.currentTarget.style.color = "#5E5CE6";
+              e.currentTarget.style.color = "#6B1C95";
             }}
           >
             <span>See More</span>

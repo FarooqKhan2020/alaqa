@@ -86,12 +86,12 @@ export default function Services() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#6B1C95", color: "white" }}>
                 Our Services
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Comprehensive <span style={{ color: "#5E5CE6" }}>IT Services</span>
+              Comprehensive <span style={{ color: "#6B1C95" }}>IT Services</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
               From web development to cloud solutions, we provide end-to-end IT services to transform your business.
@@ -116,21 +116,21 @@ export default function Services() {
                     <div className="absolute top-4 left-4 text-5xl">{service.icon}</div>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#5E5CE6] transition-colors">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#6B1C95] transition-colors">
                       {service.title}
                     </h3>
                     <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
                     <ul className="space-y-2 mb-4">
                       {service.features.slice(0, 3).map((feature, idx) => (
                         <li key={idx} className="flex items-center text-sm text-gray-600">
-                          <svg className="w-4 h-4 mr-2 text-[#5E5CE6]" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-4 h-4 mr-2 text-[#6B1C95]" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
                           {feature}
                         </li>
                       ))}
                     </ul>
-                    <div className="flex items-center text-[#5E5CE6] font-semibold group-hover:translate-x-2 transition-transform">
+                    <div className="flex items-center text-[#6B1C95] font-semibold group-hover:translate-x-2 transition-transform">
                       Learn More
                       <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

@@ -226,7 +226,7 @@ export default async function EngineerDetail({ params }) {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-4">
-              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
+              <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#6B1C95", color: "white" }}>
                 Hire {engineer.title}
               </span>
             </div>
@@ -266,13 +266,13 @@ export default async function EngineerDetail({ params }) {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Key Information</h2>
                 <div className="space-y-4">
                   <div className="flex items-center">
-                    <svg className="w-5 h-5 mr-3 text-[#5E5CE6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 mr-3 text-[#6B1C95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <span className="text-gray-700"><strong>Experience:</strong> {engineer.experience}</span>
                   </div>
                   <div className="flex items-center">
-                    <svg className="w-5 h-5 mr-3 text-[#5E5CE6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 mr-3 text-[#6B1C95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <span className="text-gray-700"><strong>Rate:</strong> {engineer.rate}</span>
@@ -287,7 +287,7 @@ export default async function EngineerDetail({ params }) {
                     <span
                       key={index}
                       className="px-4 py-2 rounded-full text-sm font-semibold text-white"
-                      style={{ backgroundColor: "#5E5CE6" }}
+                      style={{ backgroundColor: "#6B1C95" }}
                     >
                       {skill}
                     </span>
@@ -303,7 +303,7 @@ export default async function EngineerDetail({ params }) {
                 <ul className="space-y-3">
                   {engineer.responsibilities.map((resp, index) => (
                     <li key={index} className="flex items-start">
-                      <div className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: "#5E5CE6" }}>
+                      <div className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: "#6B1C95" }}>
                         <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
@@ -319,7 +319,7 @@ export default async function EngineerDetail({ params }) {
                 <ul className="space-y-3">
                   {engineer.requirements.map((req, index) => (
                     <li key={index} className="flex items-start">
-                      <div className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: "#5E5CE6" }}>
+                      <div className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: "#6B1C95" }}>
                         <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>

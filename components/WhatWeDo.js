@@ -78,7 +78,7 @@ export default function WhatWeDo() {
 
   return (
     <section id="services" className="py-24 relative overflow-hidden" style={{ 
-      background: "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 50%, #c92a3a 100%)"
+      background: "linear-gradient(135deg, #6B1C95 0%, #5A1780 50%, #4A1266 100%)"
     }}>
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -96,7 +96,7 @@ export default function WhatWeDo() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
-            <span className="text-sm font-bold uppercase tracking-widest px-6 py-2 rounded-full bg-white text-[#5E5CE6] shadow-lg">
+            <span className="text-sm font-bold uppercase tracking-widest px-6 py-2 rounded-full bg-white text-[#6B1C95] shadow-lg">
               Our Services
             </span>
           </div>
@@ -125,7 +125,7 @@ export default function WhatWeDo() {
                     : "hover:-translate-y-2"
                 }`}
                 style={{
-                  borderTop: hoveredIndex === index ? "4px solid #5E5CE6" : "4px solid transparent",
+                  borderTop: hoveredIndex === index ? "4px solid #6B1C95" : "4px solid transparent",
                 }}
               >
                 {/* Animation container with gradient background */}
@@ -137,7 +137,7 @@ export default function WhatWeDo() {
                   }`}
                   style={{
                     background: hoveredIndex === index
-                      ? "linear-gradient(135deg, rgba(255, 74, 93, 0.1) 0%, rgba(255, 74, 93, 0.05) 100%)"
+                      ? "linear-gradient(135deg, rgba(107, 28, 149, 0.1) 0%, rgba(107, 28, 149, 0.05) 100%)"
                       : "transparent",
                   }}
                 >
@@ -149,7 +149,7 @@ export default function WhatWeDo() {
                       style={{
                         width: "112px",
                         height: "112px",
-                        filter: hoveredIndex === index ? "drop-shadow(0 10px 20px rgba(255, 74, 93, 0.3))" : "none",
+                        filter: hoveredIndex === index ? "drop-shadow(0 10px 20px rgba(107, 28, 149, 0.3))" : "none",
                       }}
                     />
                   </div>
@@ -159,7 +159,7 @@ export default function WhatWeDo() {
                 <div className="grow">
                   <h3
                     className={`text-xl font-bold mb-4 transition-all duration-300 ${
-                      hoveredIndex === index ? "text-[#5E5CE6]" : "text-gray-900"
+                      hoveredIndex === index ? "text-[#6B1C95]" : "text-gray-900"
                     }`}
                   >
                     {service.title}
@@ -174,8 +174,8 @@ export default function WhatWeDo() {
                   href={service.href}
                   className={`font-semibold flex items-center justify-center transition-all duration-300 w-full py-3 rounded-lg ${
                     hoveredIndex === index
-                      ? "bg-[#5E5CE6] text-white shadow-lg"
-                      : "text-[#5E5CE6] bg-transparent hover:text-[#4C4AD4] hover:bg-gray-50"
+                      ? "bg-[#6B1C95] text-white shadow-lg"
+                      : "text-[#6B1C95] bg-transparent hover:text-[#5A1780] hover:bg-gray-50"
                   }`}
                 >
                   <span>Read More</span>
@@ -203,7 +203,7 @@ export default function WhatWeDo() {
               {hoveredIndex === index && (
                 <div
                   className="absolute inset-0 rounded-2xl opacity-20 blur-xl -z-10 transition-opacity duration-500"
-                  style={{ backgroundColor: "#5E5CE6" }}
+                  style={{ backgroundColor: "#6B1C95" }}
                 ></div>
               )}
             </div>

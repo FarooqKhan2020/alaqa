@@ -82,14 +82,14 @@ export default function Expertise() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
           <div className="inline-block mb-4">
-            <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#5E5CE6", color: "white" }}>
+            <span className="text-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full" style={{ backgroundColor: "#6B1C95", color: "white" }}>
               Our Expertise
             </span>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
             Expertise
           </h2>
-          <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#5E5CE6" }}></div>
+          <div className="w-24 h-1 mx-auto mb-6" style={{ backgroundColor: "#6B1C95" }}></div>
           <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Our strategic IT solutions and services designed to drive your business forward.
           </p>
@@ -106,9 +106,9 @@ export default function Expertise() {
               <span 
                 className="text-sm font-bold uppercase tracking-widest px-6 py-2 rounded-full inline-block transition-all duration-300 transform hover:scale-105"
                 style={{ 
-                  color: "#5E5CE6",
-                  backgroundColor: hoveredIndex === index ? "rgba(94, 92, 230, 0.1)" : "transparent",
-                  border: "2px solid #5E5CE6"
+                  color: "#6B1C95",
+                  backgroundColor: hoveredIndex === index ? "rgba(107, 28, 149, 0.1)" : "transparent",
+                  border: "2px solid #6B1C95"
                 }}
               >
                 {item.category}
@@ -127,7 +127,7 @@ export default function Expertise() {
                 }`}
                 style={{
                   background: hoveredIndex === index 
-                    ? "linear-gradient(135deg, #5E5CE6 0%, #4C4AD4 50%, #3B39B8 100%)"
+                    ? "linear-gradient(135deg, #6B1C95 0%, #5A1780 50%, #4A1266 100%)"
                     : "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 50%, #dee2e6 100%)"
                 }}
               >
@@ -166,7 +166,7 @@ export default function Expertise() {
               <div className={`transition-all duration-500 ${item.imageSide === "right" ? "md:order-first" : ""}`}>
                 <h3 
                   className={`text-4xl md:text-5xl font-bold mb-6 transition-all duration-300 ${
-                    hoveredIndex === index ? "text-transparent bg-clip-text bg-gradient-to-r from-[#5E5CE6] to-[#4C4AD4]" : ""
+                    hoveredIndex === index ? "text-transparent bg-clip-text bg-gradient-to-r from-[#6B1C95] to-[#5A1780]" : ""
                   }`}
                   style={hoveredIndex !== index ? { color: "#000000" } : {}}
                 >
@@ -190,8 +190,8 @@ export default function Expertise() {
                         <div 
                           className="w-6 h-6 mr-3 mt-0.5 flex-shrink-0 rounded-full flex items-center justify-center transition-all duration-300 transform group-hover/item:scale-110"
                           style={{ 
-                            backgroundColor: hoveredIndex === index ? "#5E5CE6" : "rgba(94, 92, 230, 0.1)",
-                            color: hoveredIndex === index ? "white" : "#5E5CE6"
+                            backgroundColor: hoveredIndex === index ? "#6B1C95" : "rgba(107, 28, 149, 0.1)",
+                            color: hoveredIndex === index ? "white" : "#6B1C95"
                           }}
                         >
                           <svg
@@ -223,7 +223,7 @@ export default function Expertise() {
             {/* Divider line between items */}
             {index < expertiseItems.length - 1 && (
               <div className="mt-20 flex justify-center">
-                <div className="w-24 h-1 rounded-full" style={{ backgroundColor: "#5E5CE6", opacity: 0.3 }}></div>
+                <div className="w-24 h-1 rounded-full" style={{ backgroundColor: "#6B1C95", opacity: 0.3 }}></div>
               </div>
             )}
           </div>

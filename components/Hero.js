@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-900 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-700 via-black to-gray-800 overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
         <video
@@ -21,29 +21,29 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
           WE BUILD & REFINE
           <br />
-          <span style={{ color: "#5E5CE6" }}>SMART WEB SOLUTIONS</span>
+          <span style={{ color: "#6B1C95" }}>SMART WEB SOLUTIONS</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
           We deliver end-to-end web design, development & marketing services
           with 200% approach.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button variant="primary" className="text-lg px-8 py-4">
+          <Button variant="primary" className="text-lg !px-4 py-2">
             Get Started
           </Button>
-          <Button variant="outline" className="text-lg px-8 py-4">
+          <Button variant="outline" className="text-lg !px-4 py-2">
             View Our Work
           </Button>
         </div>
       </div>
 
       {/* Award Banner */}
-      <div
+      {/* <div
         className="absolute bottom-0 left-0 right-0 py-3"
-        style={{ backgroundColor: "#5E5CE6" }}
+        style={{ backgroundColor: "#6B1C95" }}
       >
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center space-x-2 text-white text-sm md:text-base">
@@ -60,7 +60,7 @@ export default function Hero() {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
