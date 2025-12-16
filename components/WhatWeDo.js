@@ -4,8 +4,11 @@ import Link from "next/link";
 import Lottie from "lottie-react";
 import Button from "./Button";
 
-import customDevAnimation from "../components/animations/custom-dev.json";
+// import customDevAnimation from "../components/animations/custom-dev.json";
+// import customDevAnimation from "./animations/icon-custom-development.json";
+import customDevAnimation from "./animations/icon-mobile-development.json";
 import mobileAppAnimation from "../components/animations/mobile-app.json";
+// import mobileAppAnimation from "../components/animations/mobile-app.json";
 import blockchainAnimation from "../components/animations/blockchain.json";
 import erpAnimation from "../components/animations/erp.json";
 // import luxuryLeasingAnimation from "../components/animations/dedicated-team.json";

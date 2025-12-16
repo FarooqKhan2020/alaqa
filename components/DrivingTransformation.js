@@ -1,5 +1,10 @@
+"use client";
+
 import Button from "./Button";
-import Image from "next/image";
+import Lottie from "lottie-react";
+import iconCustomDevelopment from "./animations/LineIcon1.json";
+// import iconCustomDevelopment from "./animations/Filled-icon.json";
+// import iconCustomDevelopment from "./animations/lineicon.json";
 
 export default function DrivingTransformation() {
   return (
@@ -11,7 +16,7 @@ export default function DrivingTransformation() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4 md:mb-6 leading-tight">
               DRIVING YOUR
               <br />
-              <span style={{ color: "#6B1C95" }}>DIGITAL TRANSFORMATION</span>
+              <span className="text-[#6B1C95]">DIGITAL TRANSFORMATION</span>
             </h2>
             <p className="text-gray-700 text-base md:text-lg mb-6 md:mb-8 leading-relaxed">
               We help enterprises through custom business solutions and provide
@@ -37,12 +42,11 @@ export default function DrivingTransformation() {
                   "linear-gradient(to bottom right, #6B1C95, #5A1780)",
               }}
             >
-              <Image
-                src="/hero/as-circular-logo.png"
-                alt="Background Image"
-                width={200}
-                height={200}
-                className="opacity-50 object-contain"
+              <Lottie
+                animationData={iconCustomDevelopment}
+                loop={true}
+                autoplay={true}
+                style={{ width: "200px", height: "200px", opacity: 0.5 }}
               />
             </div>
 
@@ -58,12 +62,12 @@ export default function DrivingTransformation() {
                       "linear-gradient(to bottom right, #6B1C95, #5A1780)",
                   }}
                 >
-                  <Image
-                    src="/hero/as-circular-logo.png"
-                    alt="Center Image"
-                    width={200}
-                    height={200}
-                    className="object-contain animate-rotate-smooth"
+                  <Lottie
+                    animationData={iconCustomDevelopment}
+                    loop={true}
+                    autoplay={true}
+                    style={{ width: "200px", height: "200px" }}
+                    className="animate-rotate-smooth"
                   />
                 </div>
               </div>
