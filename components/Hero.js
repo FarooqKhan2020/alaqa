@@ -53,7 +53,7 @@ export default function Hero() {
           loop
           muted
           playsInline
-          className="block md:hidden absolute inset-0 w-full h-full object-cover"
+          className="block md:hidden absolute inset-0 w-full h-full object-cover opacity-90"
         >
           <source src="/hero/banner-video2.mp4" type="video/mp4" />
         </video>

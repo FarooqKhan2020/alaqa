@@ -142,7 +142,7 @@ export default function Expertise() {
                   <img
                     src={item.imageUrl}
                     alt={item.title}
-                    className={`w-48 h-48 object-contain transition-all duration-500 ${
+                    className={`w-70 h-70 object-contain transition-all duration-500 ${
                       hoveredIndex === index ? "scale-110 brightness-110" : "scale-100"
                     }`}
                     style={{

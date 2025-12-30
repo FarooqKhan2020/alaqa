@@ -4,18 +4,15 @@ import Link from "next/link";
 import Lottie from "lottie-react";
 import Button from "./Button";
 
-// import customDevAnimation from "../components/animations/custom-dev.json";
-// import customDevAnimation from "./animations/icon-custom-development.json";
-import customDevAnimation from "./animations/icon-mobile-development.json";
-import mobileAppAnimation from "../components/animations/mobile-app.json";
-// import mobileAppAnimation from "../components/animations/mobile-app.json";
-import blockchainAnimation from "../components/animations/blockchain.json";
-import erpAnimation from "../components/animations/erp.json";
-// import luxuryLeasingAnimation from "../components/animations/dedicated-team.json";
+
+import customDevAnimation from "./animations/icon-custom-development.json";
+import mobileAppAnimation from "../components/animations/icon-mobile-development.json";
+import blockchainAnimation from "../components/animations/icon-block-chain.json";
+import erpAnimation from "../components/animations/icon-erp-development.json";
 import luxuryLeasingAnimation from "../components/animations/luxury-animation.json";
-import cloudAnimation from "../components/animations/cloud.json";
-import digitalMarketingAnimation from "../components/animations/digital-marketing.json";
-import aiMLAnimation from "../components/animations/ai-ml.json";
+import cloudAnimation from "../components/animations/icon-cloud-services.json";
+import digitalMarketingAnimation from "../components/animations/icon-digital-marketing.json";
+import aiMLAnimation from "../components/animations/icon-ai-development.json";
 
 const services = [
   {
