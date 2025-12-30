@@ -10,7 +10,7 @@ export default function Hero() {
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
+          className="absolute inset-0 w-full h-full object-cover opacity-60"
         >
           <source src="/hero/banner-video.mp4" type="video/mp4" />
           {/* Fallback for browsers that don't support video */}
@@ -21,7 +21,10 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
+          style={{
+            textShadow: "2px 2px 8px rgba(0,0,0,0.7)"
+          }}>
           WE BUILD & REFINE
           <br />
           <span style={{ color: "#6B1C95" }}>SMART WEB SOLUTIONS</span>
