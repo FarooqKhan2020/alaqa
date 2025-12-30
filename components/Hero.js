@@ -16,15 +16,27 @@ export default function Hero() {
           {/* Fallback for browsers that don't support video */}
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900"></div>
         </video>
+        {/* Mobile Video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="block md:hidden absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/hero/banner-video2.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
+        <h1
+          className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
           style={{
-            textShadow: "2px 2px 8px rgba(0,0,0,0.7)"
-          }}>
+            textShadow: "2px 2px 8px rgba(0,0,0,0.7)",
+          }}
+        >
           WE BUILD & REFINE
           <br />
           <span style={{ color: "#6B1C95" }}>SMART WEB SOLUTIONS</span>
