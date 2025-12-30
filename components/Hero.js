@@ -1,11 +1,41 @@
+"use client";
+
+import { useRef, useEffect } from "react";
 import Button from "./Button";
 
 export default function Hero() {
+  const videoRef = useRef(null);
+  const mobileVideoRef = useRef(null);
+
+  useEffect(() => {
+    const unmuteVideos = () => {
+      if (videoRef.current) {
+        videoRef.current.muted = false;
+      }
+      if (mobileVideoRef.current) {
+        mobileVideoRef.current.muted = false;
+      }
+    };
+
+    // Unmute videos after first user interaction
+    const events = ["click", "touchstart", "scroll", "keydown"];
+    events.forEach((event) => {
+      window.addEventListener(event, unmuteVideos, { once: true });
+    });
+
+    return () => {
+      events.forEach((event) => {
+        window.removeEventListener(event, unmuteVideos);
+      });
+    };
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-600 via-black to-gray-800 overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
         <video
+          ref={videoRef}
           autoPlay
           loop
           muted
@@ -18,6 +48,7 @@ export default function Hero() {
         </video>
         {/* Mobile Video */}
         <video
+          ref={mobileVideoRef}
           autoPlay
           loop
           muted
