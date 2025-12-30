@@ -3,7 +3,7 @@ import Footer from '../../components/Footer';
 import Button from '../../components/Button';
 
 export const metadata = {
-  title: "Blog - ArhamSoft",
+  title: "Blog - Alaqa",
   description: "Read our latest articles on web development, mobile apps, blockchain, AI, and technology trends.",
 };
 

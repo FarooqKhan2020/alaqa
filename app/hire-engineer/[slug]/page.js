@@ -8,11 +8,11 @@ export async function generateMetadata({ params }) {
   const engineer = getEngineerBySlug(slug);
   if (!engineer) {
     return {
-      title: "Engineer Not Found - ArhamSoft"
+      title: "Engineer Not Found - Alaqa"
     };
   }
   return {
-    title: `Hire ${engineer.title} - ArhamSoft`,
+    title: `Hire ${engineer.title} - Alaqa`,
     description: engineer.description
   };
 }

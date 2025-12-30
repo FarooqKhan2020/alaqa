@@ -3,7 +3,7 @@ import Footer from '../../components/Footer';
 import Button from '../../components/Button';
 
 export const metadata = {
-  title: "Products - ArhamSoft",
+  title: "Products - Alaqa",
   description: "Explore our innovative software products and solutions designed to transform your business.",
 };
 

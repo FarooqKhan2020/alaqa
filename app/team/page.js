@@ -2,8 +2,8 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 export const metadata = {
-  title: "Our Team - ArhamSoft",
-  description: "Meet the talented team behind ArhamSoft, driving innovation in IT services.",
+  title: "Our Team - Alaqa",
+  description: "Meet the talented team behind Alaqa, driving innovation in IT services.",
 };
 
 export default function Team() {

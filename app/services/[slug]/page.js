@@ -8,11 +8,11 @@ export async function generateMetadata({ params }) {
   const service = getServiceBySlug(slug);
   if (!service) {
     return {
-      title: "Service Not Found - ArhamSoft"
+      title: "Service Not Found - Alaqa"
     };
   }
   return {
-    title: `${service.title} - ArhamSoft`,
+    title: `${service.title} - Alaqa`,
     description: service.description
   };
 }

@@ -45,7 +45,7 @@ export default function Contact() {
         </svg>
       ),
       title: "Email",
-      details: ["info@arhamsoft.com", "support@arhamsoft.com"]
+      details: ["info@alaqa.com", "support@alaqa.com"]
     },
     {
       icon: (

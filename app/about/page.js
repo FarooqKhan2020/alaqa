@@ -3,8 +3,8 @@ import Footer from '../../components/Footer';
 import Button from '../../components/Button';
 
 export const metadata = {
-  title: "About Us - ArhamSoft",
-  description: "Learn about ArhamSoft, a leading IT services company providing web development, mobile apps, blockchain, ERP, and cloud solutions.",
+  title: "About Us - Alaqa",
+  description: "Learn about Alaqa, a leading IT services company providing web development, mobile apps, blockchain, ERP, and cloud solutions.",
 };
 
 export default function AboutUs() {

@@ -3,8 +3,8 @@ import Footer from '../../components/Footer';
 import Button from '../../components/Button';
 
 export const metadata = {
-  title: "Careers - ArhamSoft",
-  description: "Join ArhamSoft and build your career with a leading IT services company. Explore open positions and opportunities.",
+  title: "Careers - Alaqa",
+  description: "Join Alaqa and build your career with a leading IT services company. Explore open positions and opportunities.",
 };
 
 export default function Careers() {

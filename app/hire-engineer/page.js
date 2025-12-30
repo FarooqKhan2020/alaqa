@@ -4,7 +4,7 @@ import Button from '../../components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Hire Engineers - ArhamSoft",
+  title: "Hire Engineers - Alaqa",
   description: "Hire dedicated engineers and developers for your projects. React, Node.js, PHP, Java, and more.",
 };
 

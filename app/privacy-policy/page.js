@@ -2,7 +2,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 export const metadata = {
-  title: "Privacy Policy - ArhamSoft",
+  title: "Privacy Policy - Alaqa",
   description: "Read our privacy policy to understand how we collect, use, and protect your personal information.",
 };
 
@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">1. Introduction</h2>
                 <p>
-                  ArhamSoft ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+                  Alaqa ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
                 </p>
               </div>
 
@@ -131,7 +131,7 @@ export default function PrivacyPolicy() {
                   If you have any questions about this Privacy Policy, please contact us at:
                 </p>
                 <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-                  <p className="mb-2"><strong>Email:</strong> privacy@arhamsoft.com</p>
+                  <p className="mb-2"><strong>Email:</strong> privacy@alaqa.com</p>
                   <p className="mb-2"><strong>Phone:</strong> +1 (555) 123-4567</p>
                   <p><strong>Address:</strong> New York, USA</p>
                 </div>

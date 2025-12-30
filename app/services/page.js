@@ -4,7 +4,7 @@ import Button from '../../components/Button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Services - ArhamSoft",
+  title: "Services - Alaqa",
   description: "Comprehensive IT services including web development, mobile apps, blockchain, ERP, cloud solutions, and more.",
 };
 
