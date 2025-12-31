@@ -147,7 +147,9 @@ export default function WhatWeDo() {
                       style={{
                         width: "112px",
                         height: "112px",
-                        filter: hoveredIndex === index ? "drop-shadow(0 10px 20px rgba(107, 28, 149, 0.3))" : "none",
+                        filter: hoveredIndex === index 
+                          ? "grayscale(0%) drop-shadow(0 10px 20px rgba(107, 28, 149, 0.3))" 
+                          : "grayscale(100%)",
                       }}
                     />
                   </div>

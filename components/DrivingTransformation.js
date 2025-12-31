@@ -2,7 +2,7 @@
 
 import Button from "./Button";
 import Lottie from "lottie-react";
-import iconCustomDevelopment from "./animations/LineIcon1.json";
+import iconCustomDevelopment from "./animations/New-animation.json";
 // import iconCustomDevelopment from "./animations/Filled-icon.json";
 // import iconCustomDevelopment from "./animations/lineicon.json";
 
