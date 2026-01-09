@@ -19,7 +19,7 @@ const services = [
     animation: customDevAnimation,
     title: "Custom Development",
     description:
-      "Tailored software solutions designed to meet your unique business requirements and drive growth.123good",
+      "Tailored software solutions designed to meet your unique business requirements and drive growth.",
     href: "/services/web-development",
   },
   {

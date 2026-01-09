@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Alaqa",
-  description: "Alaqa, We deliver end-to-end web design, development & marketing services. Custom software solutions, mobile apps, AI & ML, blockchain development, and more.",
+  description: "We deliver end-to-end web design, development & marketing services. Custom software solutions, mobile apps, AI & ML, blockchain development, and more.",
 };
 
 export default function RootLayout({ children }) {
